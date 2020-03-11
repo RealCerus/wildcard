@@ -4,6 +4,22 @@ Please use the [WildCard discussion group](http://groups.google.com/group/wildca
 
 Wildcard is a small Java library that performs efficient pattern matching of files and directories. Paths can be matched with wildcards or regular expressions. Matched files can be easily copied, deleted, zipped, etc.
 
+## Maven
+```xml
+<repositories>
+	<repository>
+	    <id>jitpack.io</id>
+	    <url>https://jitpack.io</url>
+	</repository>
+</repositories>
+
+<dependency>
+    <groupId>com.github.RealCerus</groupId>
+    <artifactId>wildcard</artifactId>
+    <version>1.5.0</version>
+</dependency>
+```
+
 ## Glob matching
 
 The `glob` method collects files and directories using literal characters and optional wildcards:
